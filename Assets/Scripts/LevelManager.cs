@@ -153,7 +153,7 @@ public class LevelManager : MonoBehaviour {
         thePlayer.enabled = true;
         sr.enabled = true;
         rb2D.simulated = true;
-        thePlayer.knockBackCounter = 0;
+       // thePlayer.knockBackCounter = 0;
       
       //  thePlayer2.enabled = true;
       //  sr2.enabled = true;
@@ -180,8 +180,8 @@ public class LevelManager : MonoBehaviour {
 		{
 			healthCount -= damageToTake;
 			UpdateHeartMeter ();
-			thePlayer.Knockback ();
-			thePlayer.hitSound.Play ();
+			//thePlayer.Knockback ();
+			//thePlayer.hitSound.Play ();
 		}
 	}
 
