@@ -12,11 +12,10 @@ GameObject:
   - component: {fileID: 7683515564600093889}
   - component: {fileID: 7683515564600093902}
   - component: {fileID: 6286119096254252822}
-  - component: {fileID: -2850092224688142561}
   - component: {fileID: 7504213167910814461}
   m_Layer: 0
   m_Name: Cannonball
-  m_TagString: Untagged
+  m_TagString: ball
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -121,23 +120,6 @@ MonoBehaviour:
   power: 20
   powerup: 10
   fallspeed: 50
---- !u!114 &-2850092224688142561
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7683515564600093903}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec72faae4cc8a47edbb9b977002fff9a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  enabledObject: {fileID: 0}
-  disabledObject: {fileID: 0}
-  version: []
-  deathTime: 5
-  despawnTime: 5
 --- !u!58 &7504213167910814461
 CircleCollider2D:
   m_ObjectHideFlags: 0
