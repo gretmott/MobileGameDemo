@@ -134,6 +134,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rb2D: {fileID: 6011334882051817914}
   moveSpeed: 3
+  myanim: {fileID: -6475291267882457806}
+  gold: 1
 --- !u!95 &-6475291267882457806
 Animator:
   serializedVersion: 3

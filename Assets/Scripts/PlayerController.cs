@@ -12,6 +12,9 @@ public class PlayerController : MonoBehaviour {
     public bool up;
     public GameObject cannonball;
 
+    public int gold;
+    public Text goldText;
+
 	public Vector3 respawnPosition;
 	public LevelManager theLevelManager;
 
@@ -35,9 +38,26 @@ public class PlayerController : MonoBehaviour {
 
     }
 
+    private void Start()
+    {
+        gold = PlayerPrefs.GetInt("Gold");
+    }
+
     // Update is called once per frame
     void Update()
     {
+
+        goldText.text = "Gold:" + gold;
+
+
+        PlayerPrefs.SetInt("Gold", gold);
+
+        if(gold >= 10)
+        {
+            //start end of level celebrations
+        }
+
+
         if(up == true)
         {
             myRB2d.velocity = new Vector2(0, jetpower);
