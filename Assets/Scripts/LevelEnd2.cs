@@ -51,14 +51,14 @@ public class LevelEnd2 : MonoBehaviour
 
     private void FixedUpdate()
     {
-        //if (levelactive == true)
+        if (levelactive == true)
         {
-			//scoreText.text = "score" + (Mathf.RoundToInt(score));
-			//score += .025f; //this just adds score over time
+			scoreText.text = "score" + (Mathf.RoundToInt(score));
+			score += .025f; //this just adds score over time
                             //would need to set score back to 0 when player dies
         }
 
-		//finalscore.text = "FINAL SCORE:" + (Mathf.RoundToInt(score));
+		finalscore.text = "FINAL SCORE:" + (Mathf.RoundToInt(score));
 		//this could also count collectables or even give the person a rank (bronze, silver, gold, etc)
 
 	
@@ -128,8 +128,6 @@ public class LevelEnd2 : MonoBehaviour
             //have a gold star show up or a silver star etc.
 
         }
-
-
 
 	}
 }

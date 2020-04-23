@@ -9,6 +9,8 @@ public class BatFly : MonoBehaviour
     public Animator myanim;
     public bool gold;
     public AudioSource hitsound;
+    public HurtPlayer hp;
+    public bool hit;
 
     // Start is called before the first frame update
     void Start()
@@ -46,6 +48,12 @@ public class BatFly : MonoBehaviour
             StartCoroutine("Hit");
         }
 
+        if (hit== false)
+        {
+            //StartCoroutine("Hit");
+            //hit = true;
+        }
+
          
 
     }
@@ -54,8 +62,11 @@ public class BatFly : MonoBehaviour
     {
         myanim.SetBool("Hit", true);
         hitsound.Play();
+        hp.enabled = false;
         yield return new WaitForSeconds(1f);
         myanim.SetBool("Hit", false);
+        hp.enabled = true;
+        hit = false;
         MF_AutoPool.Despawn(this.gameObject);
     }
 
