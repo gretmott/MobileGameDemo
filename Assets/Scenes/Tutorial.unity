@@ -2610,7 +2610,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 5471df52328f2496d829922db90462b1, type: 3}
+  m_Sprite: {fileID: 21300000, guid: edaedea3cd51b491193f186841afad65, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -2825,9 +2825,9 @@ MonoBehaviour:
   heart1: {fileID: 332742374}
   heart2: {fileID: 332667888}
   heart3: {fileID: 332701486}
-  heartFull: {fileID: 21300000, guid: 07daac6b3f7e34ee7871a974d199fc76, type: 3}
-  heartHalf: {fileID: 21300000, guid: 757c77ea08e1f4a6e8f1d16ec66b6bfe, type: 3}
-  heartEmpty: {fileID: 21300000, guid: f51f2701f50fd4f948d1a8fe2154003b, type: 3}
+  heartFull: {fileID: 21300000, guid: edaedea3cd51b491193f186841afad65, type: 3}
+  heartHalf: {fileID: 21300000, guid: 5a6e652557f6c403fb659252b906bccf, type: 3}
+  heartEmpty: {fileID: 21300000, guid: 2edef0d55e2a94d7d8fe62e6e0e3bcbe, type: 3}
   maxHealth: 6
   healthCount: 6
   respawning: 0
@@ -2926,7 +2926,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 5471df52328f2496d829922db90462b1, type: 3}
+  m_Sprite: {fileID: 21300000, guid: edaedea3cd51b491193f186841afad65, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -3289,7 +3289,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 5471df52328f2496d829922db90462b1, type: 3}
+  m_Sprite: {fileID: 21300000, guid: edaedea3cd51b491193f186841afad65, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
