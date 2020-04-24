@@ -101,8 +101,8 @@ public class LevelEnd2 : MonoBehaviour
 		//thePlayer.canMove = false;
 		//theCamera.followTarget = false;
 		//pauseScreen.SetActive (false);
-		theLevelManager.invincible = true;
-		thePlayer.myRB2d.velocity = Vector3.zero;
+		//theLevelManager.invincible = true;
+		//thePlayer.myRB2d.velocity = Vector3.zero;
 
 		//PlayerPrefs.SetInt ("CoinCount", theLevelManager.coinCount);
 		//PlayerPrefs.SetInt ("PlayerLives", theLevelManager.currentLives);
@@ -118,7 +118,9 @@ public class LevelEnd2 : MonoBehaviour
 		//yield return new WaitForSeconds(waitToLoad);
 		//SceneManager.LoadScene(levelToLoad);
 
-		LevelEndScreen.SetActive(true); //this will turn on our level end screen whihc will
+
+		Time.timeScale = 0;
+        LevelEndScreen.SetActive(true); //this will turn on our level end screen whihc will
                                         //be a grahpic overlay with buttons that we can use to
                                         //open the next scene, visit the shop or remove ads etc
 
@@ -130,4 +132,14 @@ public class LevelEnd2 : MonoBehaviour
         }
 
 	}
+
+
+public void LetsPlay()
+    {
+		Time.timeScale = 1;
+		PlayerPrefs.SetInt("LvlStart", 1);
+		SceneManager.LoadScene("LoadingScene2");
+
+
+    }
 }

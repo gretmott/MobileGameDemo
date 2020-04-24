@@ -40,22 +40,22 @@ public class PlayerController : MonoBehaviour {
 
     private void Start()
     {
-        gold = PlayerPrefs.GetInt("Gold");
+        //gold = PlayerPrefs.GetInt("Gold");
     }
 
     // Update is called once per frame
     void Update()
     {
 
-        goldText.text = "Gold:" + gold;
+        //goldText.text = "Gold:" + gold;
 
 
-        PlayerPrefs.SetInt("Gold", gold);
+       // PlayerPrefs.SetInt("Gold", gold);
 
-        if(gold >= 10)
-        {
+       // if(gold >= 10)
+        //{
             //start end of level celebrations
-        }
+        //}
 
 
         if(up == true)

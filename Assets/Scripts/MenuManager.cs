@@ -37,16 +37,17 @@ public class MenuManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        //goldCount = PlayerPrefs.GetInt ("Gold"); //if you want to save gold across sessions
+        goldCount = PlayerPrefs.GetInt ("Gold"); //if you want to save gold across sessions
     }
 
     // Update is called once per frame
     void Update()
     {
 
-        //PlayerPrefs.setInt("Gold", goldCount); //if you want to save gold across sessions
-
+        PlayerPrefs.SetInt("Gold", goldCount); //if you want to save gold across sessions
         goldtext.text = "Gold:" + goldCount;
+
+
         PartyHat = PlayerPrefs.GetInt("PartyHat");
 
         if (PartyHat == 1)
@@ -129,9 +130,13 @@ public class MenuManager : MonoBehaviour
 
     public void Reset()
     {
-        PlayerPrefs.SetInt("PartyHat", 0);
-        inventoryHat.SetActive(false);
-        wearHat = false;
+        //PlayerPrefs.SetInt("PartyHat", 0);
+        //inventoryHat.SetActive(false);
+        //wearHat = false;
+        PlayerPrefs.SetInt("LvlStart", 0);
+        PlayerPrefs.SetInt("Gold", 0);
+        goldCount = PlayerPrefs.GetInt("Gold");
+        goldtext.text = "Gold" + goldCount;
     }
 
 

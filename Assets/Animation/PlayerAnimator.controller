@@ -185,7 +185,7 @@ AnimatorState:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: PlayerIdle
-  m_Speed: 0
+  m_Speed: 1
   m_CycleOffset: 0
   m_Transitions:
   - {fileID: 110158926}
@@ -246,7 +246,7 @@ AnimatorStateMachine:
     m_Position: {x: 410, y: -220, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 110246678}
-    m_Position: {x: 456, y: 12, z: 0}
+    m_Position: {x: 460, y: 10, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 110267466}
     m_Position: {x: 168, y: -144, z: 0}
