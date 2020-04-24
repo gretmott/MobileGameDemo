@@ -201,7 +201,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 51568134}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1130325737}
+        m_MethodName: OpenInv
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &51568134
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -837,6 +848,82 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &270206302
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3210612539381645109, guid: ab9fd3745013b4162aa311e6e83878f7,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -9.835965
+      objectReference: {fileID: 0}
+    - target: {fileID: 3210612539381645109, guid: ab9fd3745013b4162aa311e6e83878f7,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.3467784
+      objectReference: {fileID: 0}
+    - target: {fileID: 3210612539381645109, guid: ab9fd3745013b4162aa311e6e83878f7,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3210612539381645109, guid: ab9fd3745013b4162aa311e6e83878f7,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3210612539381645109, guid: ab9fd3745013b4162aa311e6e83878f7,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3210612539381645109, guid: ab9fd3745013b4162aa311e6e83878f7,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3210612539381645109, guid: ab9fd3745013b4162aa311e6e83878f7,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3210612539381645109, guid: ab9fd3745013b4162aa311e6e83878f7,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 3210612539381645109, guid: ab9fd3745013b4162aa311e6e83878f7,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3210612539381645109, guid: ab9fd3745013b4162aa311e6e83878f7,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3210612539381645109, guid: ab9fd3745013b4162aa311e6e83878f7,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5758705053742698885, guid: ab9fd3745013b4162aa311e6e83878f7,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6143321864820195629, guid: ab9fd3745013b4162aa311e6e83878f7,
+        type: 3}
+      propertyPath: m_Name
+      value: Shark
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 5758705053742698885, guid: ab9fd3745013b4162aa311e6e83878f7, type: 3}
+    - {fileID: 2792095566291870254, guid: ab9fd3745013b4162aa311e6e83878f7, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: ab9fd3745013b4162aa311e6e83878f7, type: 3}
 --- !u!222 &304649156
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2712,11 +2799,11 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1130325735}
-        m_MethodName: 
-        m_Mode: 1
+        m_MethodName: SetActive
+        m_Mode: 6
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -6851,7 +6938,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1452154750
 Transform:
   m_ObjectHideFlags: 0
@@ -6957,7 +7044,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
-  m_AnchoredPosition: {x: -167, y: 25}
+  m_AnchoredPosition: {x: 188, y: 25}
   m_SizeDelta: {x: 1067, y: 600}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1459192758
@@ -7261,7 +7348,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1607067280}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1130325737}
+        m_MethodName: CloseNav
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1607067280
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7947,6 +8045,8 @@ MonoBehaviour:
   jetpower: 0
   up: 0
   cannonball: {fileID: 0}
+  gold: 0
+  goldText: {fileID: 0}
   respawnPosition: {x: 0, y: 0, z: 0}
   theLevelManager: {fileID: 0}
   invincibilityLength: 1
@@ -9016,8 +9116,10 @@ MonoBehaviour:
   up: 0
   cannonball: {fileID: 7683515564600093903, guid: 4045979a2797041cea9774ec577dc396,
     type: 3}
+  gold: 0
+  goldText: {fileID: 2070832733}
   respawnPosition: {x: 0, y: 0, z: 0}
-  theLevelManager: {fileID: 0}
+  theLevelManager: {fileID: 332685146}
   invincibilityLength: 1
   canMove: 0
 --- !u!114 &114092992432520590
