@@ -136,7 +136,7 @@ public class MenuManager : MonoBehaviour
         PlayerPrefs.SetInt("LvlStart", 0);
         PlayerPrefs.SetInt("Gold", 0);
         goldCount = PlayerPrefs.GetInt("Gold");
-        goldtext.text = "Gold" + goldCount;
+        goldtext.text = "Gold:" + goldCount;
     }
 
 
