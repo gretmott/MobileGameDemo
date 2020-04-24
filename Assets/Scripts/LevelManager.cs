@@ -49,6 +49,7 @@ public class LevelManager : MonoBehaviour {
 	//public AudioSource coinSound;
 	public AudioSource levelMusic;
 	public AudioSource gameOverMusic;
+	public Animator playerAnim; 
     //
 	//public GameObject pauseScreen;
 
@@ -132,12 +133,13 @@ public class LevelManager : MonoBehaviour {
 	public IEnumerator RespawnCo()
 	{
         thePlayer.enabled = false;
-        sr.enabled = false;
+		//sr.enabled = false;
+		playerAnim.SetBool("Death", true);
         rb2D.simulated = false;
        // thePlayer2.enabled = false;
        // sr2.enabled = false;
        // rb2D2.simulated = false;
-        Instantiate (DieBurst, thePlayer.transform.position, thePlayer.transform.rotation);
+        //Instantiate (DieBurst, thePlayer.transform.position, thePlayer.transform.rotation);
        // Instantiate(DieBurst, thePlayer2.transform.position, thePlayer2.transform.rotation);
 
         yield return new WaitForSeconds (waitToRespawn);
@@ -145,6 +147,7 @@ public class LevelManager : MonoBehaviour {
 		healthCount = maxHealth;
 		respawning = false;
 		UpdateHeartMeter ();
+		playerAnim.SetBool("Death", false);
 		//coinCount = 0;
 		//coinText.text = "Stars:" + coinCount;
 		thePlayer.transform.position = thePlayer.respawnPosition;
