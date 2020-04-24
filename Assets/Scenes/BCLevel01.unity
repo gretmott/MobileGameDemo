@@ -4938,7 +4938,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c829df4e021416b40adabae40e93c7c7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemy: {fileID: 3106390487316753193, guid: 2321944a4b6ca4bbaaacd82d50fba46f, type: 3}
+  enemy: {fileID: 3106390487316753193, guid: 7a65192738b8f4720a2058f392646523, type: 3}
   spawnPoints:
   - {fileID: 1911570710}
   - {fileID: 308334988}
@@ -6473,7 +6473,7 @@ MonoBehaviour:
     emptyBehavior: 2
     maxSize: 50
     maxEmptyBehavior: 0
-    prefab: {fileID: 3106390487316753193, guid: 2321944a4b6ca4bbaaacd82d50fba46f,
+    prefab: {fileID: 3106390487316753193, guid: 7a65192738b8f4720a2058f392646523,
       type: 3}
     printLogOnQuit: 0
   masterPool: []

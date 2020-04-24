@@ -32,7 +32,7 @@ Transform:
   m_GameObject: {fileID: 3106390487316753193}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -13, y: -1.3, z: 0.15917969}
-  m_LocalScale: {x: 0.63009, y: 0.63009, z: 0.63009}
+  m_LocalScale: {x: 0.26685, y: 0.26685, z: 0.26685}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -137,6 +137,8 @@ MonoBehaviour:
   myanim: {fileID: 7761752253010087431}
   gold: 0
   hitsound: {fileID: 0}
+  hp: {fileID: 0}
+  hit: 0
 --- !u!58 &2241638722441862049
 CircleCollider2D:
   m_ObjectHideFlags: 0
