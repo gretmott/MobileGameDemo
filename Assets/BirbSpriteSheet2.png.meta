@@ -1,16 +1,28 @@
 fileFormatVersion: 2
-guid: 45dfb2b944f0148ba972838c20d94831
+guid: 014e742ce38b243a88e709f6c3009280
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 625961749017523104
-    second: PirateShipSpriteSheet_0
+      213: -1435024173838129224
+    second: BirbSpriteSheet2_0
   - first:
-      213: 7810424266195879283
-    second: PirateShipSpriteSheet_1
+      213: 5459197432388410972
+    second: BirbSpriteSheet2_1
   - first:
-      213: -5511679592493097883
-    second: PirateShipSpriteSheet_2
+      213: -3961302430153493512
+    second: BirbSpriteSheet2_2
+  - first:
+      213: 2341463411284140152
+    second: BirbSpriteSheet2_3
+  - first:
+      213: 6733831574253015588
+    second: BirbSpriteSheet2_4
+  - first:
+      213: 8145142563668504818
+    second: BirbSpriteSheet2_5
+  - first:
+      213: 5951524005238145893
+    second: BirbSpriteSheet2_6
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -107,55 +119,97 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: PirateShipSpriteSheet_0
+      name: BirbSpriteSheet2_0
       rect:
         serializedVersion: 2
-        x: 551
-        y: 188
-        width: 1791
-        height: 1754
+        x: 266
+        y: 2933
+        width: 1076
+        height: 1127
       alignment: 9
-      pivot: {x: 0.50000006, y: 0.48420888}
+      pivot: {x: 0.50000006, y: 0.4469641}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1138b3ff498894edaabffc2b3babddc4
-      internalID: 625961749017523104
+      spriteID: f49e9c9d80cf2424bb1990fec306bdb5
+      internalID: -1435024173838129224
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PirateShipSpriteSheet_1
+      name: BirbSpriteSheet2_1
       rect:
         serializedVersion: 2
-        x: 2591
-        y: 189
-        width: 1791
-        height: 1754
+        x: 2008
+        y: 2946
+        width: 1076
+        height: 1127
       alignment: 9
-      pivot: {x: 0.5, y: 0.49473628}
+      pivot: {x: 0.5317433, y: 0.4242345}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 23a89a64220da4b85b7b288595a91714
-      internalID: 7810424266195879283
+      spriteID: 95390823abea641b0ae7e81270a33713
+      internalID: 5459197432388410972
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PirateShipSpriteSheet_2
+      name: BirbSpriteSheet2_2
       rect:
         serializedVersion: 2
-        x: 4742
-        y: 179
-        width: 1791
-        height: 1754
+        x: 3647
+        y: 2942
+        width: 1076
+        height: 1127
+      alignment: 9
+      pivot: {x: 0.5312491, y: 0.46225125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92f853d50decf47e9b604ab1f8319e03
+      internalID: -3961302430153493512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BirbSpriteSheet2_3
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 1379
+        width: 1076
+        height: 1127
+      alignment: 9
+      pivot: {x: 0.49206442, y: 0.46211717}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d1558f8be51843ebb3987d5409b74e8
+      internalID: 2341463411284140152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BirbSpriteSheet2_4
+      rect:
+        serializedVersion: 2
+        x: 2067
+        y: 1378
+        width: 1076
+        height: 1127
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -163,8 +217,50 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c718492dd70fa42e6b078c02e3f2cef0
-      internalID: -5511679592493097883
+      spriteID: bb13b0db13ece41cf86e6eb91865f115
+      internalID: 6733831574253015588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BirbSpriteSheet2_5
+      rect:
+        serializedVersion: 2
+        x: 3656
+        y: 1396
+        width: 1076
+        height: 1127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c19c023bd14d462094018b85be65dd3
+      internalID: 8145142563668504818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BirbSpriteSheet2_6
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 0
+        width: 1076
+        height: 1127
+      alignment: 9
+      pivot: {x: 0.4761931, y: 0.41665784}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 138847fd340af48859fd6bc79b4d88f0
+      internalID: 5951524005238145893
       vertices: []
       indices: 
       edges: []
