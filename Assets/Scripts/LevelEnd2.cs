@@ -14,6 +14,7 @@ public class LevelEnd2 : MonoBehaviour
 	public Rigidbody2D myRB;
 	public CameraController theCamera;
 	public LevelManager theLevelManager;
+	public MenuManager mm;
 
 	public float waitToMove;
 	public float waitToLoad;

@@ -47,7 +47,7 @@ public class PlayerController : MonoBehaviour {
     void Update()
     {
 
-        //goldText.text = "Gold:" + gold;
+        goldText.text = "Gold:" + gold;
 
 
        // PlayerPrefs.SetInt("Gold", gold);
