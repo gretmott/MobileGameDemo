@@ -11,6 +11,7 @@ TagManager:
   - FP
   - PlayerB
   - ball
+  - CoinSound
   layers:
   - Default
   - TransparentFX

@@ -18,7 +18,7 @@ GameObject:
   - component: {fileID: -2482645105345281193}
   m_Layer: 0
   m_Name: pCylinder1
-  m_TagString: Untagged
+  m_TagString: CoinSound
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -101,8 +101,8 @@ Rigidbody2D:
   m_GravityScale: 1
   m_Material: {fileID: 0}
   m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
+  m_SleepingMode: 0
+  m_CollisionDetection: 1
   m_Constraints: 0
 --- !u!58 &9216956482027566016
 CircleCollider2D:
@@ -117,9 +117,9 @@ CircleCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 7.690263}
+  m_Offset: {x: 0, y: 7.651385}
   serializedVersion: 2
-  m_Radius: 1
+  m_Radius: 1.570373
 --- !u!114 &6792465647771089849
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -136,6 +136,9 @@ MonoBehaviour:
   moveSpeed: 3
   myanim: {fileID: -6475291267882457806}
   gold: 1
+  hitsound: {fileID: 0}
+  hp: {fileID: 0}
+  hit: 0
 --- !u!95 &-6475291267882457806
 Animator:
   serializedVersion: 3
@@ -168,3 +171,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mm: {fileID: 0}
+  le2: {fileID: 0}
+  coinSound: {fileID: 0}
