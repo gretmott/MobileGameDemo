@@ -1,0 +1,307 @@
+fileFormatVersion: 2
+guid: 37e5732c99a8f4427bfcc8ff5fce52dd
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7637663235542680095
+    second: CloudAsset_0
+  - first:
+      213: 399193871914425599
+    second: CloudAsset_1
+  - first:
+      213: -52441457139426216
+    second: CloudAsset_2
+  - first:
+      213: -5800275958943769105
+    second: CloudAsset_3
+  - first:
+      213: -1317420733196083978
+    second: CloudAsset_4
+  - first:
+      213: 6661391584208355536
+    second: CloudAsset_5
+  - first:
+      213: -6767820380467884690
+    second: CloudAsset_6
+  - first:
+      213: 2764888284923039830
+    second: CloudAsset_7
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: CloudAsset_0
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 408
+        width: 1707
+        height: 1676
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 204, y: 0, z: 172, w: 172}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95d34c428770e48aaaa52b8441a041fd
+      internalID: 7637663235542680095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CloudAsset_1
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 5686
+        width: 1440
+        height: 1676
+      alignment: 9
+      pivot: {x: 0.5186887, y: 0.50934494}
+      border: {x: 204, y: 0, z: 172, w: 172}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcaad3ae6bac1431aa3c1cd8bd3b718f
+      internalID: 399193871914425599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CloudAsset_2
+      rect:
+        serializedVersion: 2
+        x: 1713
+        y: 5702
+        width: 1739
+        height: 1675
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 204, y: 0, z: 172, w: 172}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12593cde00ac04605a29e027d6e6c6fe
+      internalID: -52441457139426216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CloudAsset_3
+      rect:
+        serializedVersion: 2
+        x: 3498
+        y: 5686
+        width: 1018
+        height: 1660
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 156}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5f563e30723c4b798c5fe46f61088e0
+      internalID: -5800275958943769105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CloudAsset_4
+      rect:
+        serializedVersion: 2
+        x: 4782
+        y: 5702
+        width: 1441
+        height: 1550
+      alignment: 9
+      pivot: {x: 0.49999967, y: 0.5404158}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f4f46c01f75e4d59b81eb9d55c7a07e
+      internalID: -1317420733196083978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CloudAsset_5
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 3275
+        width: 1645
+        height: 1457
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 204, y: 0, z: 110, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a740aee15dee14116897832950b0a473
+      internalID: 6661391584208355536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CloudAsset_6
+      rect:
+        serializedVersion: 2
+        x: 2324
+        y: 3227
+        width: 1644
+        height: 1535
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be6f527253c6742ca9b3b2b506e81d20
+      internalID: -6767820380467884690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CloudAsset_7
+      rect:
+        serializedVersion: 2
+        x: 4532
+        y: 3196
+        width: 1769
+        height: 1598
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 132838c732e264055975cd6aaa7fb26c
+      internalID: 2764888284923039830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

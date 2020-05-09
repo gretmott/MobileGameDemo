@@ -202,9 +202,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1459192756}
-        m_MethodName: SetActive
-        m_Mode: 6
+      - m_Target: {fileID: 1130325737}
+        m_MethodName: OpenInv
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -4964,7 +4964,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 593462438}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.27, y: 4.14, z: 0}
+  m_LocalPosition: {x: 0.27, y: 2.87, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1981021623}
@@ -7700,7 +7700,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -0.66693115, y: 0.6669922}
+  m_AnchoredPosition: {x: -0.6668701, y: 0.6669922}
   m_SizeDelta: {x: -774.19995, y: -429.22488}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1493659201
@@ -7764,7 +7764,8 @@ MonoBehaviour:
     emptyBehavior: 2
     maxSize: 50
     maxEmptyBehavior: 0
-    prefab: {fileID: 107560, guid: 33c5a247093ce214c94f7d63118ec832, type: 3}
+    prefab: {fileID: 3106390487316753193, guid: 0dd82f4edcd39488dbeee49f8bcccad4,
+      type: 3}
     printLogOnQuit: 0
   masterPool: []
 --- !u!1 &1540109010
@@ -7983,7 +7984,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1130325737}
-        m_MethodName: CloseNav
+        m_MethodName: CloseInv
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -9024,7 +9025,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1981021622}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2.1166239, y: -5.561714, z: 696.4339}
+  m_LocalPosition: {x: 2.1166239, y: -4.9, z: 696.4339}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 593462439}
@@ -9045,7 +9046,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c829df4e021416b40adabae40e93c7c7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemy: {fileID: 107560, guid: 33c5a247093ce214c94f7d63118ec832, type: 3}
+  enemy: {fileID: 3106390487316753193, guid: 0dd82f4edcd39488dbeee49f8bcccad4, type: 3}
   spawnPoints:
   - {fileID: 593462439}
   - {fileID: 876143844}
