@@ -32,6 +32,9 @@ public class MenuManager : MonoBehaviour
     public bool ownItem2;
     public bool ownItem3;
 
+    public GameObject tapTut;
+    public GameObject cannonTut;
+
 
 
     // Start is called before the first frame update
@@ -75,6 +78,19 @@ public class MenuManager : MonoBehaviour
         {
             ShopHat.interactable = true; // the hat button is now clickable in the shop
         }
+
+        if (goldCount == 0)
+        {
+            tapTut.SetActive(true);
+        }
+        else if (goldCount == 1)
+        {
+            tapTut.SetActive(false);
+            cannonTut.SetActive(true);
+        }
+
+
+
     }
 
 
