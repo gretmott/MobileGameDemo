@@ -22,6 +22,7 @@ public class LevelManager : MonoBehaviour {
 	//public float PlayerZ;
 
 	public GameObject DieBurst;
+	public GameObject gameoverscreen;
 
 	//public Text coinText;
 
@@ -98,11 +99,18 @@ public class LevelManager : MonoBehaviour {
     // Update is called once per frame
     void Update () {
 
-		if (healthCount <= 0 && !respawning) 
+		//if (healthCount <= 0 && !respawning) 
 		{
-			Respawn ();
-			respawning = true;
+			//Respawn ();
+			//respawning = true;
 		}
+
+
+        if (healthCount <= 0)
+        {
+			gameoverscreen.SetActive(true);
+
+        }
 	
 	}
 

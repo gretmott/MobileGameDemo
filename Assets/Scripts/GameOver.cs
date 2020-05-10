@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 using UnityEngine.SceneManagement;
+using System;
 
 public class GameOver : MonoBehaviour {
 
@@ -29,6 +30,5 @@ public class GameOver : MonoBehaviour {
 	{
 		SceneManager.LoadScene (mainMenu);
 	}
-
 
 }

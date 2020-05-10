@@ -194,7 +194,7 @@ public class AP_Pool : MonoBehaviour {
 	public GameObject CreateObject ( bool createInPool ) { // true when creating an item in the pool without spawing it
 		GameObject obj = null;
 		if ( poolBlock.prefab ) {
-			obj = (GameObject) Instantiate( poolBlock.prefab, transform.position, transform.rotation );
+            obj = (GameObject)Instantiate(poolBlock.prefab, transform.position, transform.rotation);
 			AP_Reference oprScript = obj.GetComponent<AP_Reference>();
 			if ( oprScript == null ) { oprScript = obj.AddComponent<AP_Reference>(); }
 			oprScript.poolScript = this;

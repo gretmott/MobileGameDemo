@@ -2037,7 +2037,7 @@ AudioListener:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 326693740}
-  m_Enabled: 0
+  m_Enabled: 1
 --- !u!82 &319267438
 AudioSource:
   m_ObjectHideFlags: 0
@@ -3362,6 +3362,7 @@ MonoBehaviour:
   sr: {fileID: 0}
   rb2D: {fileID: 50507761694104662}
   DieBurst: {fileID: 167010, guid: 64eab49863d3747709ff7926d16e0c38, type: 3}
+  gameoverscreen: {fileID: 326863270}
   heart1: {fileID: 332742374}
   heart2: {fileID: 332667888}
   heart3: {fileID: 332701486}
