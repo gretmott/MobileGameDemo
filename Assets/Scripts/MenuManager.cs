@@ -74,7 +74,7 @@ public class MenuManager : MonoBehaviour
         }
 
 
-        if (goldCount >= 1 && ownHat == false) //if we have enough gold and didn't but the hat yet
+       if (goldCount >= 1 && ownHat == false) //if we have enough gold and didn't but the hat yet
         {
             ShopHat.interactable = true; // the hat button is now clickable in the shop
         }
