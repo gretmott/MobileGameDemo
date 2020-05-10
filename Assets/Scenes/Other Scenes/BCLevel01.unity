@@ -6547,6 +6547,8 @@ MonoBehaviour:
   ownHat: 1
   ownItem2: 0
   ownItem3: 0
+  tapTut: {fileID: 0}
+  cannonTut: {fileID: 0}
 --- !u!1 &1148655824
 GameObject:
   m_ObjectHideFlags: 0

@@ -40,6 +40,7 @@ public class PlayerController : MonoBehaviour {
 
     private void Start()
     {
+        myAnim = GetComponent<Animator>();
         //gold = PlayerPrefs.GetInt("Gold");
     }
 
@@ -87,6 +88,8 @@ public class PlayerController : MonoBehaviour {
 
         myAnim.SetFloat("Speed", Mathf.Abs(myRB2d.velocity.x));
         myAnim.SetFloat("JumpSpeed", myRB2d.velocity.y);
+
+     
         
 
 
