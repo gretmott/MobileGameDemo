@@ -74,16 +74,16 @@ public class MenuManager : MonoBehaviour
         }
 
 
-       if (goldCount >= 1 && ownHat == false) //if we have enough gold and didn't but the hat yet
+       //if (goldCount >= 1 && ownHat == false) //if we have enough gold and didn't but the hat yet
         {
-            ShopHat.interactable = true; // the hat button is now clickable in the shop
+            //ShopHat.interactable = true; // the hat button is now clickable in the shop
         }
 
         if (goldCount == 0)
         {
             tapTut.SetActive(true);
         }
-        else if (goldCount == 1)
+        else if (goldCount >= 1)
         {
             tapTut.SetActive(false);
             cannonTut.SetActive(true);
